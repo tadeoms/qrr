@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "6f45991517ac13637b57f5999a67b325"
-application_url = "https://receivers-scottish-twisted-provide.trycloudflare.com"
+application_url = "https://mods-pipes-ferrari-terminology.trycloudflare.com"
 embedded = true
 name = "qrr"
 handle = "qrr"
@@ -19,9 +19,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://receivers-scottish-twisted-provide.trycloudflare.com/auth/callback",
-  "https://receivers-scottish-twisted-provide.trycloudflare.com/auth/shopify/callback",
-  "https://receivers-scottish-twisted-provide.trycloudflare.com/api/auth/callback"
+  "https://mods-pipes-ferrari-terminology.trycloudflare.com/auth/callback",
+  "https://mods-pipes-ferrari-terminology.trycloudflare.com/auth/shopify/callback",
+  "https://mods-pipes-ferrari-terminology.trycloudflare.com/api/auth/callback"
 ]
 
 [pos]
