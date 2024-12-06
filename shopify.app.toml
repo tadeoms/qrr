@@ -1,0 +1,32 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "6f45991517ac13637b57f5999a67b325"
+application_url = "https://receivers-scottish-twisted-provide.trycloudflare.com"
+embedded = true
+name = "qrr"
+handle = "qrr"
+
+[webhooks]
+api_version = "2024-10"
+
+  [[webhooks.subscriptions]]
+  topics = [ "app/uninstalled" ]
+  uri = "/webhooks/app/uninstalled"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://receivers-scottish-twisted-provide.trycloudflare.com/auth/callback",
+  "https://receivers-scottish-twisted-provide.trycloudflare.com/auth/shopify/callback",
+  "https://receivers-scottish-twisted-provide.trycloudflare.com/api/auth/callback"
+]
+
+[pos]
+embedded = false
+
+[build]
+dev_store_url = "holalalalaa.myshopify.com"
+automatically_update_urls_on_dev = true
